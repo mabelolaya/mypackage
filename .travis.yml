@@ -2,7 +2,7 @@
 
 
 cache: packages
-
+warnings_are_errors:true
 language: r
 r:
   - oldrel
@@ -10,9 +10,9 @@ r:
   - devel
 
 
- os:
+os:
  -linux
 
 
-  dist:
+dist:
   -xenial
