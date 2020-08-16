@@ -4,7 +4,7 @@ language: r
 cache: packages
 warnings_are_errors: false
 dist: xenial
-os: windwons
+os: windwos
 
 
 r:
