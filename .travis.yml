@@ -1,8 +1,7 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
 language: r
-dist: trusy
-sudo: required
+dist: xenial
 
 matrix:
   include:
@@ -13,10 +12,5 @@ matrix:
 
 cache:
   packages: TRUE
-r_github_packages:
-  - r-lib/covr
-  - r-lib/usethis
-after_success:
-    - Rscript -e 'covr::codecov()'
 
 
