@@ -3,14 +3,15 @@
 language: r
 dist: xenial
 
-matrix:
-  include:
-   - os: linux
-     r: release
-   - os: linux
-     r: devel
+
+os: linux
+
 
 cache:
   packages: TRUE
 
 
+r:
+  - oldrel
+  - release
+  - devel
