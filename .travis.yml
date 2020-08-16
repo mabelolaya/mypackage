@@ -19,5 +19,4 @@ r_github_packages:
 after_success:
     - Rscript -e 'covr::codecov()'
 
-© 2020 GitHub, Inc.
 
