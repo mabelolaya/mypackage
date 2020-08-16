@@ -4,6 +4,7 @@ language: r
 cache: packages
 warnings_are_errors: true
 dist: xenial
+os: linux
 
 
 r:
