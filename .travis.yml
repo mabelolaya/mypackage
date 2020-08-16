@@ -2,3 +2,14 @@
 
 language: R
 cache: packages
+
+{
+  "language": "r",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "cache": {
+    "packages": true
+  }
+}
