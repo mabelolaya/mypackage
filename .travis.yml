@@ -5,4 +5,4 @@ cache: packages
 dist: xenial
 os: linux
 warnings_are_errors: true
-r_check_args: true
+r_check_args: false
