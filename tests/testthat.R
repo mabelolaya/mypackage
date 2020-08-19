@@ -1,4 +1,4 @@
-library(testthat)
+
 library(mypackage)
 library(testthat)
 
