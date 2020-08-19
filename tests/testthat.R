@@ -1,7 +1,7 @@
 library(testthat)
 library(mypackage)
 library(testthat)
-library(fars)
+
 library(dplyr)
 library(readr)
 library(tidyr)
