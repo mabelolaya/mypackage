@@ -1,7 +1,6 @@
 
 library(mypackage)
 library(testthat)
-
 library(dplyr)
 library(readr)
 library(tidyr)
