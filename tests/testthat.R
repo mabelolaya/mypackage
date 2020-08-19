@@ -1,13 +1,4 @@
 library(testthat)
+library(mypackage)
+
 test_check("mypackage")
-
-# test filename
-
-
-test_that("Testing the make_filename function", {
-  expect_equal(make_filename(2014), "accident_2014.csv.bz2")})
-
-test_that("Testing the make_filename function", {
-  expect_equal(make_filename(2015), "accident_2015.csv.bz2")})
-
-
