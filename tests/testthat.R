@@ -1,11 +1,4 @@
-
-library(mypackage)
 library(testthat)
-library(readr)
-library(tidyr)
-library(magrittr)
-library(graphics)
-library(maps)
 test_check("mypackage")
 
 # test filename
