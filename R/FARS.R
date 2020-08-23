@@ -25,7 +25,7 @@
 
 fars_read <- function(filename) {
 
-  filedir <- system.file("textdata", filename, package = "mypackage")
+  filedir <- system.file("extdata", filename, package = "mypackage")
 
   if(!file.exists(filename))
     stop("file '", filename, "' does not exist")
